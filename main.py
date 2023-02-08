@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 from TR_y import dialog_2, dialog_3, dialog_4, dialog_5
 
 storage = MemoryStorage()
-TOKEN = '5981376324:AAGOzZ9770BSaeZXM4RLYhPVeCS-khGGg_E'
+TOKEN = 'ток'
 bot = Bot(token=TOKEN)
 dp: Dispatcher = Dispatcher(bot, storage=storage)
 from db_1 import Database
